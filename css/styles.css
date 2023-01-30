@@ -1,0 +1,255 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+/*======================HEADER========================*/
+
+.header {}
+
+.header-navigation {}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    color: #2E2F42;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-list {}
+
+.list {}
+
+.header-item {}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-link:is(:hover, :focus) {
+    color: #404BBF;
+}
+
+.header-address {}
+
+.header-contact-list {}
+
+.header-contact-item {}
+
+.header-contact-link {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-contact-link:is(:hover, :focus) {
+     color: #404BBF;
+}
+
+/*======================MAIN=PAGE=======================*/
+/*======================ORDER========================*/
+.order {
+    background-color: #2E2F42;
+}
+
+.order-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.order-btn {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+.order-btn:is(:hover, :focus) {
+    background-color: #404BBF;
+}
+
+/*======================FEATURES========================*/
+
+.features {}
+
+.features-title {}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*======================ACTIVITY========================*/
+
+.activity {}
+
+.activity-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.activity-list {}
+
+.activity-item {}
+
+.activity-img {}
+
+
+/*======================TEAM========================*/
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+/*======================PORTFOLIO========================*/
+
+/*======================SPECIALITY========================*/
+
+.main-2 {}
+
+.speciality {}
+
+.speciality-filter {}
+
+.speciality-filter-item {}
+
+.speciality-btn {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.speciality-btn:is(:hover, :focus) {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.speciality-list {}
+
+.speciality-item {}
+
+.speciality-link {}
+
+.speciality-img {}
+
+.speciality-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.speciality-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+
+/*======================FOOTER========================*/
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    color: #F4F4FD;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
