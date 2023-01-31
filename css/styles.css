@@ -15,6 +15,22 @@ body {
     color: #4D5AE5;
 }
 
+p,h1,h2,h3,h4 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1128px;
+    margin: 0 auto;
+}
+
+
+
 /*======================HEADER========================*/
 
 .header {}
