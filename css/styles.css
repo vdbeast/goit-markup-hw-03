@@ -25,7 +25,10 @@ ul {
 }
 
 .container {
-    width: 1128px;
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
