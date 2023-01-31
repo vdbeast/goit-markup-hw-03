@@ -1,3 +1,8 @@
+:root { 
+    --background-color-navy: #2E2F42;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
@@ -91,7 +96,7 @@ ul {
 /*======================MAIN=PAGE=======================*/
 /*======================ORDER========================*/
 .order {
-    background-color: #2E2F42;
+    background-color:var(--background-color-navy);
 }
 
 .order-title {
@@ -251,7 +256,7 @@ ul {
 /*======================FOOTER========================*/
 
 .footer {
-    background-color: #2E2F42;
+    background-color:var(--background-color-navy);
 }
 
 .footer-logo {
