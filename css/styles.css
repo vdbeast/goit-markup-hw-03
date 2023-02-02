@@ -45,6 +45,19 @@ button{
     margin: 0 auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 
 
 /*======================HEADER========================*/
@@ -58,6 +71,7 @@ button{
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-navigation {
@@ -305,7 +319,8 @@ button{
     color: #4D5AE5;
     background-color: #F4F4FD;
     padding: 12px 24px;
-    border: none;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .speciality-btn:is(:hover, :focus) {
